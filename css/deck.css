@@ -9,14 +9,14 @@ li.card {
 
 .hearts {
   background-color: white;
-  background-image: url("images/hearts.png");
+  background-image: url("/images/hearts.png");
   background-size: 100%;
   text-align: center;
 }
 
 .diamonds {
   background-color: yellow;
-  background-image: url("images/diamonds.png");
+  background-image: url("/images/diamonds.png");
   background-size: 100%;
   text-align: center;
 
@@ -24,7 +24,7 @@ li.card {
 
 .clubs {
   background-color: green;
-  background-image: url("images/clubs.png");
+  background-image: url("/images/clubs.png");
   background-size: 100%;
   text-align: center;
 
@@ -32,7 +32,7 @@ li.card {
 
 .spades {
   background-color: blue;
-  background-image: url("images/spades.png");
+  background-image: url("/images/spades.png");
   background-size: 100%;
   text-align: center;
 
