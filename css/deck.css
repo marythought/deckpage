@@ -1,4 +1,5 @@
 li.card {
+  display: none;
   height:100px;
   width:100px;
   border-width: 5px,5px,5px,5px;
@@ -9,14 +10,14 @@ li.card {
 
 .hearts {
   background-color: white;
-  background-image: url("/images/hearts.png");
+  background-image: url("http://www.marythought.com/images/hearts.png");
   background-size: 100%;
   text-align: center;
 }
 
 .diamonds {
   background-color: yellow;
-  background-image: url("/images/diamonds.png");
+  background-image: url("http://www.marythought.com/images/diamonds.png");
   background-size: 100%;
   text-align: center;
 
@@ -24,7 +25,7 @@ li.card {
 
 .clubs {
   background-color: green;
-  background-image: url("/images/clubs.png");
+  background-image: url("http://www.marythought.com/images/clubs.png");
   background-size: 100%;
   text-align: center;
 
@@ -32,7 +33,7 @@ li.card {
 
 .spades {
   background-color: blue;
-  background-image: url("/images/spades.png");
+  background-image: url("http://www.marythought.com/images/spades.png");
   background-size: 100%;
   text-align: center;
 

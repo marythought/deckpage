@@ -3,16 +3,25 @@
 <head>
   <title>Deck -o- Cards</title>
   <link rel="stylesheet" type="text/css" href="css/styles.css"/>
-  <link rel="stylesheet" type="text/css" href="css/deck.css"/>
+  <link rel="stylesheet" type="text/css" href="css/deck2.css"/>
 </head>
 
 <body>
-  <h1>Shuffle!</h1>
-  <button id="runButton">shuffle</button>
-  <ul id="deck">
-  </ul>
+  <h1>Deal!</h1>
+  <button id="runButton">Shuffle cards</button>
+  <button id="dealButton">Deal cards</button>
+  <section id="userSpace">
+    <h2>Your cards:</h2>
+    <ul id="deck">
+    </ul>
+  </section>
+  <section id="computerSpace">
+    <h2>Computer's cards:</h2>
+    <ul id="computerDeck">
+    </ul>
+  </section>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script src="js/deck.js" type="text/javascript"></script>
+<script src="js/deck2.js" type="text/javascript"></script>
 </body>
 </html>

@@ -16,10 +16,10 @@ function Deck() {
     $.each(thisDeck.ranks, function() {
       var rank = this;
       var card = new Card(rank, suit);
+
       $('#deck').append(card.toHTML());
     });
   });
-
 }
 
 var deck = new Deck();
@@ -29,7 +29,7 @@ $( "li:contains('C')" ).addClass( "clubs" );
 $( "li:contains('D')" ).addClass( "diamonds" );
 
 $('#runButton').on('click', function() {
-  var shuffle = function(m) {
+  var Shuffle = function(m) {
     var rand, $rand;
 
     rand = Math.floor(Math.random() * m--);
@@ -39,9 +39,17 @@ $('#runButton').on('click', function() {
     insertBefore($("li:eq(" + rand + ")"))
 
     if(m) {
-    setTimeout(shuffle, 50, m);
+    setTimeout(Shuffle, 50, m);
     }
   };
 
-  shuffle($('.card').length);
+  Shuffle($('.card').length);
+});
+
+$('#dealButton').on('click', function() {
+  $("#runButton").css('display', 'none')
+  var Deal = function() {
+    $( "li:odd" ).prependTo( "#computerDeck" );
+  }
+  Deal();
 });
