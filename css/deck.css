@@ -1,11 +1,16 @@
-li.card {
-  display: none;
+li.card, li.computerCard {
   height:100px;
   width:100px;
   border-width: 5px,5px,5px,5px;
   border: double black;
   margin: 5px,5px,5px,5px;
   display: inline-block;
+}
+
+.hide {
+  position: absolute !important;
+  top: -9999px !important;
+  left: -9999px !important;
 }
 
 .hearts {
